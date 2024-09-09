@@ -1,23 +1,61 @@
 # Quickstart
 
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/quickstart-hero.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-09-09 at 9.03.44 AM.png" alt=""><figcaption></figcaption></figure>
 
-Beautiful documentation starts with the content you create — and GitBook makes it easy to get started with any pre-existing content.
+This is a quick overview of how you can curate a list of blockchain addresses to share with the world.
 
 {% hint style="info" %}
-Want to learn about writing content from scratch? Head to the [Basics](https://github.com/GitbookIO/onboarding-template/blob/main/getting-started/broken-reference/README.md) section to learn more.
+Want to learn more in-depth about curation? Head to the [Basics](https://github.com/GitbookIO/onboarding-template/blob/main/getting-started/broken-reference/README.md) section to learn more.
 {% endhint %}
 
-### Import
+### Sign In
 
-GitBook supports importing content from many popular writing tools and formats. If your content already exists, you can upload a file or group of files to be imported.
+We currently support regular blockchain EOA accounts through [Metamask](https://metamask.io/) on LUKSO and Arbitrum as well as the richer experience facilitated by Universal Profiles through the Universal Profiles [browser extension](https://chromewebstore.google.com/detail/universal-profiles/abpickdkkbnbcoepogfhkhennhfhehfn?hl=en) on LUKSO.
 
 <div data-full-width="false">
 
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/quickstart-import.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-09-09 at 9.14.04 AM.png" alt="" width="375"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-09-09 at 9.16.24 AM.png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
-### Sync a repository
+### Define a curated list on LUKSO or Arbitrum
 
-GitBook also allows you to set up a bi-directional sync with an existing repository on GitHub or GitLab. Setting up Git Sync allows you and your team to write content in GitBook or in code, and never have to worry about your content becoming out of sync.
+Fill out the fields defining the nature of your curated list and publish it to the blockchain.
+
+<div>
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-09-09 at 9.55.13 AM.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-09-09 at 10.00.17 AM.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### Add entries to your curated list
+
+<div>
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-09-09 at 10.27.08 AM.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-09-09 at 10.31.48 AM.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### View and share your list
+
+<div>
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-09-09 at 10.35.05 AM.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-09-09 at 10.36.18 AM.png" alt=""><figcaption></figcaption></figure>
+
+</div>
