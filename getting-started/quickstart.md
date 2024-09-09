@@ -38,6 +38,8 @@ Fill out the fields defining the nature of your curated list and publish it to t
 
 ### Add entries to your curated list
 
+Select the blockchain addresses for the entities you'd like to curate and publish them. In this example we are curation the addresses of some Universal Profiles but they can be absolutely anything.
+
 <div>
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-09-09 at 10.27.08 AM.png" alt=""><figcaption></figcaption></figure>
@@ -49,6 +51,8 @@ Fill out the fields defining the nature of your curated list and publish it to t
 </div>
 
 ### View and share your list
+
+Congrats! You've curated your first hashlist. Now you can share it with the world.
 
 <div>
 
