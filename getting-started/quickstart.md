@@ -8,7 +8,7 @@ This is a quick overview of how you can curate a list of blockchain addresses to
 Want to learn more in-depth about curation? Head to the [Basics](https://github.com/GitbookIO/onboarding-template/blob/main/getting-started/broken-reference/README.md) section to learn more.
 {% endhint %}
 
-### Sign In
+### Sign in
 
 We currently support regular blockchain EOA accounts through [Metamask](https://metamask.io/) on LUKSO and Arbitrum as well as the richer experience facilitated by Universal Profiles through the Universal Profiles [browser extension](https://chromewebstore.google.com/detail/universal-profiles/abpickdkkbnbcoepogfhkhennhfhehfn?hl=en) on LUKSO.
 
