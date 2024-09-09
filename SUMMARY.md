@@ -5,17 +5,16 @@
 ## Getting Started
 
 * [Quickstart](getting-started/quickstart.md)
-
-## Basics
-
-* [Curated Lists](basics/editor.md)
-* [Protocol Architecture](basics/markdown.md)
-* [Supported Blockchains](basics/openapi.md)
-* [Wallets](basics/wallets.md)
+* [Curated Lists & Their Use Cases](getting-started/editor.md)
+* [Supported Blockchains](getting-started/openapi.md)
+* [Wallets](getting-started/wallets.md)
 
 ## Developers
 
-* [Hashlists Protocol](developers/hashlists-protocol.md)
+* [Protocol Architecture](developers/markdown.md)
 * [Integrate Curated Lists](developers/integrations.md)
-* [Use Cases](developers/use-cases.md)
-* [LUKSO Standard Proposals](developers/lukso-standard-proposals.md)
+* [Intro to LUKSO Standard Proposals (LSPs)](https://docs.lukso.tech/standards/introduction)
+
+## Miscellaneous
+
+* [About Us](miscellaneous/about-us.md)

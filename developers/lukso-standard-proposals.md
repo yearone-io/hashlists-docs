@@ -1,2 +1,0 @@
-# LUKSO Standard Proposals
-

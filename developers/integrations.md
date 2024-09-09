@@ -1,9 +1,11 @@
-# Integrations
+# Integrate Curated Lists
 
-GitBook integrations allow you to connect your GitBook spaces to some of your favorite platforms and services. You can install integrations into your GitBook page from the _Integrations_ menu in the top left.
+### On chain and off chain
 
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/integrations-hero.png" alt=""><figcaption></figcaption></figure>
+To refer to the contents of a curated list in your smart contract you can simply rely on all the methods available under [LSP8IdentifiableDigitialAsset](https://github.com/lukso-network/LIPs/blob/main/LSPs/LSP-8-IdentifiableDigitalAsset.md#interface-cheat-sheet) its [Enumerable](https://github.com/lukso-network/lsp-smart-contracts/blob/develop/packages/lsp8-contracts/contracts/extensions/LSP8Enumerable.sol) extension, with the target address being the curated lists' address on the blockchain.
 
-### Types of integrations
+Entry ids in a curated list are stored as `bytes32` so in order to check if a particular blockchain address is an entry within a curated you'd first pad the address with 0s and then rely on the `getOperatorsOf(tokenId)` [method](https://github.com/lukso-network/LIPs/blob/main/LSPs/LSP-8-IdentifiableDigitalAsset.md#getoperatorsof).&#x20;
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Analytics</strong></td><td>Track analytics from your docs</td><td><a href="https://www.gitbook.com/integrations#analytics">https://www.gitbook.com/integrations#analytics</a></td><td><a href="../.gitbook/assets/2.png">2.png</a></td><td></td></tr><tr><td><strong>Support</strong></td><td>Add support widgets to your docs</td><td><a href="https://www.gitbook.com/integrations#support">https://www.gitbook.com/integrations#support</a></td><td><a href="../.gitbook/assets/3.png">3.png</a></td><td></td></tr><tr><td><strong>Interactive</strong></td><td>Add extra functionality to your docs</td><td><a href="https://www.gitbook.com/integrations#interactive">https://www.gitbook.com/integrations#interactive</a></td><td><a href="../.gitbook/assets/4.png">4.png</a></td><td></td></tr><tr><td><strong>Visitor Authentication</strong></td><td>Protect your docs and require sign-in</td><td><a href="https://www.gitbook.com/integrations#visitor-authentication">https://www.gitbook.com/integrations#visitor-authentication</a></td><td><a href="../.gitbook/assets/1.png">1.png</a></td><td></td></tr></tbody></table>
+If you want to read all the addresses of the entries in a list you could fetch the `totalSupply()` and then using the `tokenAt(uint256 index)` [method](https://github.com/lukso-network/lsp-smart-contracts/blob/develop/packages/lsp8-contracts/contracts/extensions/LSP8Enumerable.sol#L29C14-L29C36), fetch the address for all the indexes.
+
+For a bunch of possible usecases relying on curated lists please refer to: [Curated Lists & Their Use Cases](../getting-started/editor.md).
