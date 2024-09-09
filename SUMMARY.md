@@ -9,9 +9,7 @@
 ## Basics
 
 * [Curated Lists](basics/editor.md)
-* [Create a Curated List](basics/markdown.md)
-* [Adding List Entries](basics/images-and-media.md)
-* [Manage Your Lists](basics/interactive-blocks.md)
+* [Protocol Architecture](basics/markdown.md)
 * [Supported Blockchains](basics/openapi.md)
 * [Wallets](basics/wallets.md)
 
