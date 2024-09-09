@@ -2,7 +2,7 @@
 
 #### Leveraging the LSP8 Identifiable Digital Asset standard
 
-The **LUKSO Standard Proposal 8 Identifiable Digital Asset** lends itself quite nicely to serving as the foundation for the Hashlists Curation Protocol. LSP8 was designed for creating unique, non-fungible tokens (NFTs). It allows for precise control over individual assets, making it an ideal choice for implementing curated lists, as each entity on the list is represented by its unique token ID which can itself be mapped to a unique blockchain address. The properties Curated Hashlists inherit from LSP8 are:
+The **LUKSO Standard Proposal 8 Identifiable Digital Asset** lends itself quite nicely to serving as the foundation for the Hashlists Curation Protocol. LSP8 was designed for creating unique, non-fungible tokens (NFTs). It allows for precise control over individual assets, making it an ideal choice for implementing curated lists, as each entity on the list is represented by its unique token ID, which can itself be mapped to a unique blockchain address. The properties Curated Hashlists inherit from LSP8 are:
 
 1. **Uniqueness of Assets**: Every entry in a curated list is unique. LSP8 provides a way to tokenize and manage these unique assets, representing anything from NFTs to smart contracts to digital profiles.
 2. **Trackable Provenance**: By using LSP8, curators can ensure that their lists are verifiable and tamper-proof. Each curated list’s origin, changes, and endorsements are transparent, traceable on the blockchain, and publicly verifiable.
