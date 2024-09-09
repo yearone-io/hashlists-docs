@@ -17,4 +17,5 @@
 
 ## Miscellaneous
 
+* [Need Assistance/Support?](miscellaneous/need-assistance-support.md)
 * [About Us](miscellaneous/about-us.md)
