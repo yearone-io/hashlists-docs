@@ -38,7 +38,7 @@ Fill out the fields defining the nature of your curated list and publish it to t
 
 ### Add entries to your curated list
 
-Select the blockchain addresses for the entities you'd like to curate and publish them. In this example we are curation the addresses of some Universal Profiles but they can be absolutely anything.
+Select the blockchain addresses for the entities you'd like to curate and publish them. In this example we are curating the addresses of some Universal Profiles, but the addresses could represent absolutely anything.
 
 <div>
 

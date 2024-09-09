@@ -19,7 +19,7 @@ layout:
 
 # Hashlists: Curate the Blockchain
 
-Those who curate your social feed curate your perception of the world. Unfortunately those in control are entities and corporations misaligned with what's best for us as individuals and humanity as a whole, but we accept our situation, feeling powerless to change it. But what if we could take back control and redesign the "attention economy" to serve us, rather than deliver us to be served? #notYourAlgoNotYourFeed
+Those who curate your social feed curate your perception of the world. Unfortunately, those in control are entities and corporations misaligned with what's best for us as individuals and humanity as a whole, but we accept our situation, feeling powerless to change it. But what if we could take back control and redesign the "attention economy" to serve us, rather than deliver us to be served? #notYourAlgoNotYourFeed
 
 The solution lies in the blockchain -- a system that is permissionless, transparent, censorship-resistant, reusable, and configurable to match our personal goals and desires. LUKSO Standard Proposals (LSPs) are at the forefront of this transformation, laying the foundation for a universal social network. A key element of this vision is the Hashlists Curation Protocol, built using LSP8 Identifiable Digital Assets, which empowers users to curate their own digital experience.
 
@@ -31,4 +31,4 @@ By embracing the Hashlists Curation Protocol, users and developers alike can pla
 
 ### Jump right in
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>Create your first curated list</td><td><a href=".gitbook/assets/curated-illumination.png">curated-illumination.png</a></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr><tr><td><strong>Protocol Architecture</strong></td><td>Learn about the protocol</td><td><a href=".gitbook/assets/2.png">2.png</a></td><td></td><td><a href="developers/markdown.md">markdown.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>Create your first curated list</td><td><a href=".gitbook/assets/curated-illumination.png">curated-illumination.png</a></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr><tr><td><strong>Protocol Architecture</strong></td><td>Learn about the protocol</td><td><a href=".gitbook/assets/logo black.png">logo black.png</a></td><td></td><td><a href="developers/markdown.md">markdown.md</a></td></tr></tbody></table>
