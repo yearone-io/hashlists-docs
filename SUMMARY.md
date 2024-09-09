@@ -5,7 +5,7 @@
 ## Getting Started
 
 * [Quickstart](getting-started/quickstart.md)
-* [Curated Lists & Their Use Cases](getting-started/editor.md)
+* [Curated Lists](getting-started/editor.md)
 * [Supported Blockchains](getting-started/openapi.md)
 * [Wallets](getting-started/wallets.md)
 
