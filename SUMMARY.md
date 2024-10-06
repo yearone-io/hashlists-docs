@@ -13,7 +13,8 @@
 
 * [Protocol Architecture](developers/markdown.md)
 * [Integrate Curated Lists](developers/integrations.md)
-* [Intro to LUKSO Standard Proposals (LSPs)](https://docs.lukso.tech/standards/introduction)
+* [Hashlists Protocol Source Code](https://github.com/yearone-io/hashlists-protocol)
+* [LUKSO Standard Proposals (LSPs) Docs](https://docs.lukso.tech/standards/introduction)
 
 ## Miscellaneous
 
