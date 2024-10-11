@@ -5,7 +5,7 @@
 ## Getting Started
 
 * [Quickstart](getting-started/quickstart.md)
-* [Curated (Hash)Lists](getting-started/curated-hash-lists.md)
+* [Curated (Hash)Lists Use Cases](getting-started/curated-hash-lists-use-cases.md)
 * [Supported Blockchains](getting-started/openapi.md)
 * [Wallets](getting-started/wallets.md)
 

@@ -8,7 +8,7 @@ Entry ids in a curated list are stored as `bytes32` so in order to check if a pa
 
 If you want to read all the addresses of the entries in a list, you can fetch the `totalSupply()` and then using that result and the `tokenAt(uint256 index)` [method](https://github.com/lukso-network/lsp-smart-contracts/blob/develop/packages/lsp8-contracts/contracts/extensions/LSP8Enumerable.sol#L29C14-L29C36), fetch the address for the full set.
 
-For some possible usecases relying on curated lists please refer to: [Curated Lists & Their Use Cases](../getting-started/curated-hash-lists.md).
+For some possible usecases relying on curated lists please refer to: [Curated Lists & Their Use Cases](../getting-started/curated-hash-lists-use-cases.md).
 
 #### Solidity Example
 
