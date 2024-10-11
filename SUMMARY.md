@@ -12,7 +12,7 @@
 ## Developers
 
 * [Protocol Contract Deployments](developers/protocol-contract-deployments.md)
-* [Protocol Architecture](developers/markdown.md)
+* [Protocol Architecture](developers/architecture.md)
 * [Integrate Curated Lists](developers/integrations.md)
 * [Hashlists Protocol Source Code](https://github.com/yearone-io/hashlists-protocol)
 * [LUKSO Standard Proposals (LSPs) Docs](https://docs.lukso.tech/standards/introduction)
