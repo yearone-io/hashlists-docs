@@ -5,7 +5,7 @@
 This is a quick overview of how you can curate a list of blockchain addresses to share with the world.
 
 {% hint style="info" %}
-Want to learn more in-depth about curation? Head to the [Curated Lists](editor.md) section to learn more.
+Want to learn more in-depth about curation? Head to the [Curated Lists](curated-hash-lists.md) section to learn more.
 {% endhint %}
 
 ### Sign in

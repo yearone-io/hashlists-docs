@@ -1,11 +1,23 @@
 # Protocol Architecture
 
-#### Leveraging the LSP8 Identifiable Digital Asset standard
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-11 at 4.32.51 PM.png" alt=""><figcaption></figcaption></figure>
 
-The **LUKSO Standard Proposal 8 Identifiable Digital Asset** lends itself quite nicely to serving as the foundation for the Hashlists Curation Protocol. LSP8 was designed for creating unique, non-fungible tokens (NFTs). It allows for precise control over individual assets, making it an ideal choice for implementing curated lists, as each entity on the list is represented by its unique token ID, which can itself be mapped to a unique blockchain address. The properties Curated Hashlists inherit from LSP8 are:
+**Overview of the Hashlists Protocol Architecture**
 
-1. **Uniqueness of Assets**: Every entry in a curated list is unique. LSP8 provides a way to tokenize and manage these unique assets, representing anything from NFTs to smart contracts to digital profiles.
-2. **Trackable Provenance**: By using LSP8, curators can ensure that their lists are verifiable and tamper-proof. Each curated list’s origin, changes, and endorsements are transparent, traceable on the blockchain, and publicly verifiable.
-3. **Interoperability**: LSP8 assets can interact seamlessly with other LUKSO standards, such as LSP3 (profile metadata) and LSP9 (vaults), expanding the range of possible interactions within the ecosystem. For instance, curated lists could be integrated into other decentralized applications (dApps), social platforms, or even serve as modules in larger protocols.
-4. **Censorship Resistance**: Unlike centralized platforms where curated content can be manipulated or restricted, on-chain curated lists using LSP8 cannot be censored. This ensures that lists remain true to the curator's intent without interference.
-5. **Decentralized Ownership and Control**: Curated lists created via LSP8 allow full ownership and control by the individual curator. The list itself becomes a tokenized asset that can be transferred, sold, or shared, giving curators autonomy and direct rewards for their efforts.
+The Hashlists Protocol is a decentralized user-driven curation system built leveraging LUKSO Standard Proposals to create a modular framework for curating blockchain entities. This document provides a detailed overview of the architecture and its core components, focusing on the three main smart contracts involved: `HashlistsProtocolCollection.sol`, `CuratedListLibrary.sol`, and `CuratedListCollection.sol`. These contracts work together to create and manage curated lists, which are collections of blockchain entities represented as digital assets.
+
+#### Key Components of Hashlists Protocol
+
+1. [**HashlistsProtocolCollection.sol**](https://github.com/yearone-io/hashlists-protocol/blob/main/contracts/HashlistsProtocolCollection.sol)
+   * The `HashlistsProtocolCollection.sol` contract is the main entry point for managing collections of curated lists. It extends from LSP8 standards, including `LSP8Enumerable` and `LSP8Burnable`, allowing enumeration and management of unique entries within a curated list.
+   * The `mint` function allows new curated lists to be created, each represented by its own address, and emits an event to signal the creation of a new curated list.
+   * The contract interacts with `CuratedListLibrary` to deploy new instances of `CuratedListCollection`. This contract is responsible for creating curated lists and managing them as unique tokens. Each curated list is represented as an individual token, providing a high-level view of all curated lists created within the protocol.
+2. [**CuratedListLibrary.sol**](https://github.com/yearone-io/hashlists-protocol/blob/main/contracts/CuratedListLibrary.sol)
+   * The `CuratedListLibrary.sol` contract serves as a utility library to deploy new instances of curated lists. It provides a reusable function `deployCuratedList` that can be called by other contracts or users to create a new curated list contract.
+   * By using a library to deploy curated lists, the protocol maintains a clean separation between the logic for deploying new lists and the core logic for managing collections, enhancing modularity and reusability.
+   * This contract abstracts the complexity of deploying new smart contracts, allowing other components of the Hashlists Protocol to focus on higher-level operations.
+3. [**CuratedListCollection.sol**](https://github.com/yearone-io/hashlists-protocol/blob/main/contracts/CuratedListCollection.sol)
+   * At the core of the Hashlists Protocol are the curated list contracts (`CuratedListCollection`). Each list is a self-contained contract that provides all the functions needed for managing the entries.
+   * The `CuratedListCollection.sol` contract represents an individual curated list and is deployed by the `CuratedListLibrary`. It extends `LSP8Mintable`, `LSP8Burnable`, and `LSP8Enumerable`, allowing for minting, burning, and enumeration of unique entries.
+   * Each `CuratedListCollection` is an independent instance that allows the curator to manage a specific set of blockchain entities, represented as LSP8 tokens. The curator can add new entries (mint new tokens) and remove existing entries (burn tokens).
+   * The contract stores metadata about the curated list, including its name, symbol, and the creator, using LSP4 metadata standards. This ensures that each list is well-documented and easily identifiable within the Hashlists Protocol.
