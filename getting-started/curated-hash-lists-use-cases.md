@@ -46,27 +46,28 @@ Off-chain uses pertain to applications and user interfaces that utilize the data
    * **Example:** A service that requires identity verification checks if a user's Universal Profile is included in specific hashlists recognized as verified identities.
    * **Purpose:** To streamline verification processes by leveraging existing curated lists of verified users.
 
-**References to Existing Hashlists:**
-
-* **LUKSO Builders Hashlist UI:**
-  * **Description:** A user interface showcasing the curated list of builders, allowing community members to explore profiles and connect with developers.
-  *
-* **Gitcoin Grants Contributors Hashlist UI:**
-  * **Description:** A platform that highlights contributors to the Gitcoin Grants LUKSO Community round, providing recognition and encouraging community support.
-  *
-
 ***
 
 **Examples of Existing Curated (Hash)lists:**
 
-* **LUKSO Builders Hashlist:**
-  * **Description:** A curated list of Universal Profile addresses belonging to builders in the LUKSO community.
-  * **Potential On-Chain Use:** Smart contracts can reference this hashlist to grant builders exclusive access to beta features, participate in testnets, or receive special rewards for their contributions, etc.
-  * **Potential Off-Chain Use:** Applications and websites can display this list to promote collaboration, highlight community contributions, and facilitate networking without requiring users to perform on-chain transactions.
+*   **LUKSO Builders Hashlist:**
+
+    * **Description:** A curated list of Universal Profile addresses belonging to builders in the LUKSO community.
+    * **Potential On-Chain Use:** Smart contracts can reference this hashlist to grant builders exclusive access to beta features, participate in testnets, or receive special rewards for their contributions, etc.
+    * **Potential Off-Chain Use:** Applications and websites can display this list to promote collaboration, highlight community contributions, and facilitate networking without requiring users to perform on-chain transactions.
+
+
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-11 at 5.16.49 PM.png" alt="" width="375"><figcaption><p><a href="https://hashlists.xyz/curated-lists/42/0x7ccfa17e6a23965ab77a6257418129127e6cfbbe">View Curated List</a></p></figcaption></figure>
+
 * **Gitcoin Grants Community Round Contributors Hashlist:**
   * **Description:** A hashlist of contributors' addresses to the Gitcoin Grants Community round that supported the development of the hashlists protocol.
   * **Potential On-Chain Use:** Gift airdrops, early access to certain features, governance.
   * **Potential Off-Chain Use:** Projects can acknowledge supporters on their websites or applications by referencing this hashlist, fostering a sense of community and transparency.
+
+<figure><img src="../.gitbook/assets/image.png" alt="" width="345"><figcaption><p><a href="https://hashlists.xyz/curated-lists/42/0x3f8742f39bb84c711806e1594e213907ed47f4b2">View Curated List</a></p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (2).png" alt="" width="353"><figcaption><p><a href="https://hashlists.xyz/curated-lists/42161/0x65c15b177ca89c37ffb3933e486b3a7fa75e58f3">View Curated List</a></p></figcaption></figure>
 
 ***
 
