@@ -11,6 +11,7 @@
 
 ## Developers
 
+* [Protocol Contract Deployments](developers/protocol-contract-deployments.md)
 * [Protocol Architecture](developers/markdown.md)
 * [Integrate Curated Lists](developers/integrations.md)
 * [Hashlists Protocol Source Code](https://github.com/yearone-io/hashlists-protocol)
