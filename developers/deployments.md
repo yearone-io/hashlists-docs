@@ -1,6 +1,6 @@
 ---
 description: >-
-  The latest version of HashlistsProtocolCollection are deployed at the
+  The latest version of HashlistsProtocolCollection is deployed at the
   addresses listed below.
 ---
 
