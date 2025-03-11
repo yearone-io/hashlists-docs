@@ -20,16 +20,19 @@ pragma solidity ^0.8.24;
 import {LSP8Enumerable} from "@lukso/lsp-smart-contracts/contracts/LSP8IdentifiableDigitalAsset/extensions/LSP8Enumerable.sol";
 
 contract IntegrateCuratedList {
-    function isAddressInCuratedList(address curatedListAddress, address targetAddress) public view returns (bool) {
+    function isAddressInCuratedList(address curatedListAddress, address targetAddress) internal view returns (bool) {
         // Pad the target address with zeros to create the token ID
         bytes32 tokenId = bytes32(uint256(uint160(targetAddress)));
         
         // Instantiate the curated list contract instance
-        LSP8Enumerable curatedList = LSP8Enumerable(curatedListAddress);
+        ILSP8IdentifiableDigitalAsset curatedList = ILSP8IdentifiableDigitalAsset(curatedListAddress);
         
-        // Check if the target address is an operator of the token ID
-        address[] memory operators = curatedList.getOperatorsOf(tokenId);
-        return operators.length > 0;
+        // Check if the token exists
+        try curatedList.tokenOwnerOf(tokenId) {
+            return true;
+        } catch (bytes memory) {
+            return false;
+        }
     }
 
     function getAllEntries(address curatedListAddress) public view returns (address[] memory) {
@@ -67,8 +70,12 @@ const signer = provider.getSigner();
 async function isAddressInCuratedList(curatedListAddress: string, targetAddress: string): Promise<boolean> {
   const curatedListContract = new ethers.Contract(curatedListAddress, LSP8EnumerableABI, provider);
   const tokenId = ethers.utils.hexZeroPad(targetAddress, 32);
-  const operators = await curatedListContract.getOperatorsOf(tokenId);
-  return operators.length > 0;
+  try {
+    await curatedListContract.tokenOwnerOf(tokenId);
+    return true;
+  } catch {
+    return false;
+  }
 }
 
 // Function to get all entries from a curated list
